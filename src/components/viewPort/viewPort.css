@@ -1,0 +1,86 @@
+.viewPort{
+    margin-left: 60px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ee8572;
+    position : fixed;
+    overflow: hidden;
+}
+
+.listView{
+    color : white;
+    border-bottom:1px solid;
+}
+
+
+
+.viewPortHeader{
+    padding-left: 8px;
+    padding-right: 8px;
+    position : fixed;
+    overflow: hidden;
+    width : calc(100% - 76px);
+    height: 80px;
+    background-color: #ee8572;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.viewPortBody{
+    margin-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ee8572;
+    display: flex;
+}
+
+.tableAreaWithFilter{
+    margin-left: 8px;
+    margin-right: 4px;
+    background-color: #d4f3ef;
+    width: 68%;
+    height: 34.2rem;
+    transition: width 0.5s ease-in;
+    border-bottom:3px solid;
+    overflow: scroll;
+}
+
+.tableAreaWithoutFilter{
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #d4f3ef;
+    width: 95%;
+    height: 34.2rem ;
+    transition: width 0.5s ease-out;
+    border-bottom:3px solid;
+    overflow : scroll;
+}
+
+.filterArea{
+    margin-left: 4px;
+    margin-right: 12px;
+    background-color : #d4f3ef;
+    width: 26.2%;
+    height: 34rem;
+    border-width: 3px;
+	border-style: solid;
+}
+
+.button{
+    float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 2em;
+    border: none;
+    background-color: aqua;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+
+}

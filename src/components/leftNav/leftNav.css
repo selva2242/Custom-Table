@@ -1,0 +1,8 @@
+.LeftNav{
+    height: 100%;
+    width: 60px;
+    background-color: #abf0e9;
+    position : fixed;
+    left : 0;
+    overflow: hidden;
+}

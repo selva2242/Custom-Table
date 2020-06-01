@@ -1,0 +1,13 @@
+.filterContainer{
+	padding-left: 20px;
+}
+
+.filterTitle{
+    color: Blue;   
+}
+
+.filterCategory{
+    padding-bottom: 15px;
+    border-bottom:1px solid #9ea7af;
+    padding-left: 25px;
+}
